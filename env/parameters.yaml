@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:keeperblaze/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:keeperblaze/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:keeperblaze/prow:hmacToken
+segmentWriteKey: vault:keeperblaze:segmentWriteKey
